@@ -37,11 +37,15 @@ Aplicação em Node.js que armazena transações financeiras de entrada e saída
 
 ## ⚙️ Funcionalidades
 
-- [ ] Rotas
-  - POST /transactions
-  - GET /transactions
-  - DELETE /transactions/:id
-  - POST /transactions/import
+*Rotas*
+- [x] POST /transactions
+  - Rota recebe title, value, type e category, cadastrando-as incluindo os campos updated_at e created_at
+- [x] GET /transactions
+  - Retorna uma lista com todas as transações cadastradas, com o valor das entradas, saídas e total de crédito
+- [ ] DELETE /transactions/:id
+  - Permite deletar uma transação pelo id
+- [ ] POST /transactions/import
+  - A rota deve permite a importação de um arquivo com formato .csv
 
 
 ---
