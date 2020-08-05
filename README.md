@@ -12,7 +12,7 @@
 </h1> -->
 
 <h4 align="center">
-🚧 Finances - Em construção 🚀 🚧
+💳 Finances - Challenge finished 🚀 💳
 </h4>
 
 <p align="center">
@@ -39,9 +39,9 @@ Aplicação em Node.js que armazena transações financeiras de entrada e saída
 - Rota recebe title, value, type e category, cadastrando-as incluindo os campos updated_at e created_at
 - [x] GET /transactions
 - Retorna uma lista com todas as transações cadastradas, com o valor das entradas, saídas e total de crédito
-- [ ] DELETE /transactions/:id
+- [x] DELETE /transactions/:id
 - Permite deletar uma transação pelo id
-- [ ] POST /transactions/import
+- [x] POST /transactions/import
 - A rota deve permite a importação de um arquivo com formato .csv
 
 ---
@@ -55,13 +55,18 @@ Aplicação em Node.js que armazena transações financeiras de entrada e saída
 </a> -->
 
 
-<!-- ## Web
+## Insmonia
 
-<p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-<img alt="GoBarber" title="#GoBarber" src="./gobarber-web/src/assets/sign-in-cover.png" width="600px">
+<!-- <p align="center" style="display: flex; align-items: flex-start; justify-content: center;"> -->
+- POST /transactions/import
+<img alt="insomnia" title="#insomnia" src="./src/assets/insomnia-import.png" width="600px">
 
-<img alt="GoBarber" title="#GoBarber" src="./gobarber-web/src/assets/sign-up-cover.png" width="600px">
-</p> -->
+- Get /transactions
+<img alt="insomnia" title="#insomnia" src="./src/assets/insomnia-get.png" width="600px">
+
+## DBeaver
+
+<img alt="insomnia" title="#insomnia" src="./src/assets/dbeaver.png" width="600px">
 
 ---
 
