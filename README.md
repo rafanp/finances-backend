@@ -64,6 +64,12 @@ Aplicação em Node.js que armazena transações financeiras de entrada e saída
 - Get /transactions
 <img alt="insomnia" title="#insomnia" src="./src/assets/insomnia-get.png" width="600px">
 
+### Para rodar o insomnia em sua máquina:
+
+<p align="center">
+ <a href="https://insomnia.rest/run/?label=API%20financess&uri=https%3A%2F%2Fgithub.com%2Frafanp%2Ffinances-backend%2Fblob%2Fmaster%2FInsomnia_API_finances.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
+</p>
+
 ## DBeaver
 
 <img alt="insomnia" title="#insomnia" src="./src/assets/dbeaver.png" width="600px">
@@ -74,10 +80,10 @@ Aplicação em Node.js que armazena transações financeiras de entrada e saída
 
 ### Pré-requisitos
 
-Node.js +12.8.3
-Git
-Postgres
-Docker
+- Node.js +12.8.3
+- Git
+- Postgres
+- Docker
 
 #### 🎲 Rodando o projeto
 
