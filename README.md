@@ -55,14 +55,24 @@ Aplicação em Node.js que armazena transações financeiras de entrada e saída
 </a> -->
 
 
+### Formato do CSV
+
+```bash
+title, type, value, category
+Pagamento, income, 1000, job
+Cascão trufado, outcome, 7, food
+Combustível, outcome, 80, transporte
+Mercado, outcome, 80, food
+```
+
 ## Insmonia
 
 <!-- <p align="center" style="display: flex; align-items: flex-start; justify-content: center;"> -->
 - POST /transactions/import
-<img alt="insomnia" title="#insomnia" src="./src/assets/insomnia-import.png" width="600px">
+<img alt="insomnia" title="#insomnia" src="./src/assets/insomnia-import.png">
 
 - Get /transactions
-<img alt="insomnia" title="#insomnia" src="./src/assets/insomnia-get.png" width="600px">
+<img alt="insomnia" title="#insomnia" src="./src/assets/insomnia-get.png">
 
 ### Para rodar o insomnia em sua máquina:
 
@@ -95,13 +105,10 @@ $ git clone https://github.com/rafanp/finances-backend
 # Instale as dependências
 $ yarn
 
-# Execute a aplicação front end
-$ yarn start
-
 # Para iniciar o servidor, acesse a pasta raiz do backend
 $ yarn dev:server
 
-# O servidor inciará na porta:3000 - acesse http://localhost:3000
+# O servidor inciará na porta:3000 - utilize http://localhost:3000
 
 ```
 ---
